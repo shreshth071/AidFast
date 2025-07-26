@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/ui/accordion.js", "src/components/ui/alert-dialog.js", "src/components/ui/alert.js", "src/components/ui/avatar.js", "src/components/ui/badge.js", "src/components/ui/button.js", "src/components/ui/calendar.js", "src/components/ui/card.js", "src/components/ui/carousel.js", "src/components/ui/chart.js", "src/components/ui/collapsible.js", "src/components/ui/checkbox.js", "src/components/ui/dialog.js", "src/components/ui/transition-link.js", "src/components/ui/tooltip.js", "src/components/ui/toaster.js", "src/components/ui/toast.js", "src/components/ui/textarea.js", "src/components/ui/tabs.js", "src/components/ui/table.js", "src/components/ui/switch.js", "src/components/ui/slider.js", "src/components/ui/skeleton.js", "src/components/ui/sheet.js", "src/components/ui/sidebar.js", "src/components/ui/separator.js", "src/components/ui/select.js", "src/components/ui/scroll-area.js", "src/components/ui/radio-group.js", "src/components/ui/progress.js", "src/components/ui/popover.js", "src/components/ui/menubar.js", "src/components/ui/loading-transition.js", "src/components/ui/label.js", "src/components/ui/input.js", "src/components/ui/form.js", "src/components/ui/dropdown-menu.js"],
+  "exclude": ["node_modules"]
+}
