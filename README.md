@@ -1,76 +1,51 @@
-# 📚 Library Management System
+📚 AidFast – Library Management System
 
-A web-based Library Management System built using **HTML, CSS, JavaScript**, and **Firebase**. It allows students and administrators to manage book records, handle issue/return workflows, and maintain student data in real-time — all through a clean, responsive user interface.
+AidFast is a modern web-based Library Management System designed to simplify library operations. It helps manage books, student records, and issue/return tracking with a fast and user-friendly interface.
 
----
+🚀 Features
 
-### 🛠️ Tech Stack & Tools
-- **Languages**: HTML, CSS, JavaScript
-- **Frameworks/Libraries**: Bootstrap (for styling), Firebase SDK
-- **Database**: Firebase Firestore / Realtime Database
-- **Hosting/Backend**: Firebase Hosting (optional)
-- **Others**: Firebase Authentication (if enabled)
+📖 Add, update, and manage books
 
----
+👨‍🎓 Student registration and record management
 
-### 🎯 Features
-- ✅ Add, edit, and delete books
-- ✅ Student registration and management
-- ✅ Book issuing and return system
-- ✅ Search functionality for books and students
-- ✅ Real-time data sync via Firebase
-- ✅ Responsive UI with Bootstrap
+🔄 Book issue and return tracking
 
----
+🔍 Search functionality
 
-### 📸 UI Preview
-> Add these images in a `/screenshots` folder in your repo
+⚡ Real-time database integration
 
-![Home](./screenshots/home.png)  
-![Books](./screenshots/books.png)  
-![Issue Page](./screenshots/issue.png)
+📱 Responsive design
 
----
+🛠 Tech Stack
 
-### 🎥 Educational Sources
-> The following videos were used **only for educational purposes**, not for promotion.
+Frontend: Next.js, TypeScript, Tailwind CSS
 
-- 📺 [Library Management System Tutorial - YouTube](https://www.youtube.com/)
-- 📺 [Firebase Integration Guide - YouTube](https://www.youtube.com/)
+Backend/Database: Firebase
 
----
+⚙️ Installation & Setup
 
-### 📦 Setup Instructions
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/shreshth071/Library.git
-   ```
+Clone the repository and install dependencies:
 
-2. **Add Firebase Config**  
-   Replace the config values in `firebase-config.js` with your Firebase project credentials.
+git clone https://github.com/shreshth071/AidFast.git
+cd AidFast
+npm install
 
-3. **Open in Browser**  
-   Just open `index.html` in any modern browser and start using the system.
 
----
+Run the development server:
 
-### 🧾 Folder Structure
-```
-Library/
-├── index.html
-├── style.css
-├── app.js
-├── firebase-config.js
-├── /assets/
-├── /screenshots/
-└── README.md
-```
+npm run dev
 
----
 
-### 👤 Author
 
-**Shreshth Goel**  
-🔗 [GitHub](https://github.com/shreshth071)
+🌐 Deployment
 
----
+The project can be deployed using Firebase Hosting, Netlify, or Vercel.
+
+🤝 Contribution
+
+Contributions and suggestions are welcome. Feel free to fork the repository and create a pull request.
+
+👨‍💻 Author
+
+Shreshth Goel
+GitHub: https://github.com/shreshth071
